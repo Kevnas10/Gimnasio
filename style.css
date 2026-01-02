@@ -1,0 +1,350 @@
+
+body{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f172a;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 18px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: #d10b0b;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid black;
+}
+
+
+/* Section Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 12px;
+    position: relative;
+}
+.hero-imagen{
+flex-grow:2;
+}
+.gradiante{
+    position: absolute;
+    width: 99%;;
+    height:95%;
+    top: 6px;
+    background: linear-gradient(to right, rgb(3, 5, 8),rgba(11, 19, 31, 0.719),rgba(3, 5, 8, 0) );
+    border-radius:15px ;
+}
+.textos{
+    position: relative;
+    z-index: 2;
+}
+.retoque{
+    margin-right: 2px;
+    height: 550px;
+    width: 100%;
+    object-fit:fill;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.hero-texto{
+  font-family: "Alan Sans", sans-serif;
+  color:white;
+  font-size: 50px;
+  margin-left: 100px;
+
+}
+.home-sub{
+    color: white;
+    font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+    margin-left: 120px;
+
+}
+.color{
+    color: red;
+}
+.boton{
+    height: 50px;
+    width: 200px;
+    border-radius:10px ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 130px;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+}
+
+
+/* Nuestro servicios. */
+.servi{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+    font-size: 30px ;
+    margin-top:10px;
+    gap: 6px;
+}
+.servi::before,
+.servi::after{
+    content: "";
+    width: 90px;
+    height: 1px;
+    background:#334155;
+}
+.cards-general{
+   display: flex;
+   justify-content: center;
+   
+}
+.cards{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20%;
+}
+.cardss{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mini-img{
+    display: flex;
+    height: 90px;
+    width: 90px;
+
+}
+
+.subss{
+width: 180px;
+}
+.punto{
+    height: 15px;
+    margin-top: 2px;
+}
+.linea-inivisible{
+    border:1px solid #334155 ;
+    height: 170px;
+   
+}
+/* Comentarios */
+.componets-coment{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.coments-img{
+    height: 350px;
+    border-radius: 5px;
+}
+.gion{
+    height: 25px;
+    margin-right: 5px;
+}
+.nombres{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+        font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+}
+.comentario{
+    color: white;
+    font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+}
+.marcos{
+    background-color: #232d3b;
+    border-radius: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.boton-coment{
+    height: 50px;
+    width: 200px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+}
+.fondo{
+    background-color:#0f1a33;
+    padding-bottom: 40px;
+    
+}
+
+/* Planes y servicios */
+.plan-y-servicios{
+    background-color: #0c1b30;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+    padding-bottom: 35px;
+}
+.card-shop{
+width: 400px;
+height: 450PX;
+background-color:#050e27c9;
+border-radius: 50px;
+border: 1px solid black;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);}
+
+.cardsss{
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+.nombre-planes{
+    background-color: #d10b0b;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Alan Sans", sans-serif;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.numeros{
+    font-size: 22;
+}
+.precio{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.mess{
+    font-size: 20px;
+}
+.linea{
+    margin: 1px;
+    height: 3px;
+    width: 50%;
+    background-color:#334155;
+    margin-left: 25%;
+}
+.descipt{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.verifi{
+    height: 15px;
+}
+.promocion{
+    height: 550px;
+    width: 500px;
+    padding-bottom: 40px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Contactos */
+.contact{
+    background-image:url(./imgs/ambitious-studio-rick-barrett-1RNQ11ZODJM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 72vh;
+}
+.trasp{
+background-color: rgba(0,0,0,0.5);
+height: 72vh;
+}
+.contactoss{
+    color: white;
+    padding: 40px 0 10px 90px;
+    font-size: 40px;
+}
+.contact-general{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+.contact-input{
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 20px;
+gap: 1px;
+background-color:#0f172a;
+padding:20px 20px 0 50px;
+border-radius: 30px 30px 30px 30px;
+margin-top: 1px;
+margin-left: 8%;
+background-color: rgba(0,0,0,0.5);
+}
+.tex{
+    position: relative;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+   text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 20px;
+}
+.contact-info{
+display: flex;
+flex-direction: column;
+color:white;
+width: 20%;
+font-size: 20px;
+height: 20%;
+padding: 30px;
+background-color: #0f1a33;
+background-color: rgba(0,0,0,0.5);
+}
+.text-contact{
+    font-size: 30px;
+    color: red;
+}
