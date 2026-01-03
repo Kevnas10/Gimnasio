@@ -348,3 +348,103 @@ background-color: rgba(0,0,0,0.5);
     font-size: 30px;
     color: red;
 }
+.error1{
+    color: red;
+    display: none;
+}
+html{
+     scroll-behavior: smooth;
+}
+.button-sub{
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   background-color: red;
+   color: white;
+   font-size: 30px;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   cursor: pointer;
+   display: none;
+}
+@media (max-width: 768px) {
+ .hero{
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+ }
+ .hero-texto,
+ .home-sub{
+    margin-left: 0;
+    text-align: center;
+ }
+ .boton{
+    margin: auto auto 10px;
+ }
+ .retoque{
+    height: auto;
+ }
+ .gradiante{
+    height: auto;
+ }
+ .cards{
+    flex-direction: column;
+    height: auto;
+ }
+ .linea-inivisible{
+    height: 30px;
+ }
+ /* comentarios */
+ .coments-img{
+    height: 200px;
+ }
+ .servi {
+    font-size: 20px;
+ }
+ .servi::after,
+ .servi::before{
+    content: "";
+    width: 40px;
+    height: 1px;
+ }
+ /* Planes */
+.componets-coment{
+    flex-direction: column;
+}
+.comentario{
+    font-size: 15px;
+}
+.cardsss{
+    flex-direction: column;
+}
+.promocion{
+    height: auto;
+    width: auto;
+}
+/* Via de contactos */
+.contact{
+height: auto;
+}
+.trasp{
+    height: auto;;
+}
+.contact-general{
+    flex-direction: column;
+    gap: 30px;
+}
+  .contact-input{
+    margin-left: 0;
+    width: 80%;
+  }
+    .contact-info{
+    width: 80%;
+  }
+  .button-sub{
+    bottom: 20px;
+    right: 20px;
+  }
+body{
+    justify-content: center;
+}
+}

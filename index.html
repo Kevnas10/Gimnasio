@@ -13,9 +13,9 @@
         <header>
             <nav class="menu" >
                 <a href="#">Inicio</a>
-                <a href="">Servicios</a>
-                <a href="">Planes y precios</a>
-                <a href="">Contactos</a>
+                <a href="#serv">Servicios</a>
+                <a href="#planess">Planes y precios</a>
+                <a href="#cont">Contactos</a>
             </nav>
         </header>
             <main>
@@ -32,8 +32,8 @@
                 </div>
             </section>
             <!-- Servicios -->
-             <h2 class="servi">Nuestro <span class="color">Servicios</span></h2>
-            <section class="cards-general">
+             <h2 id="serv" class="servi">Nuestro <span class="color">Servicios</span></h2>
+            <section  class="cards-general">
                 <div class="cards">
                     <article class="cardss" >
                      <img class="mini-img" src="./imgs/instructor.png" alt="">
@@ -80,7 +80,7 @@
                 </section>
                 </div>
                     <!-- Planes y servicios -->
-            <div class="plan-y-servicios">
+            <div id="planess" class="plan-y-servicios">
                 <h2 class="servi fondo">Planes & <span class="color">Precios</span></h2>
                 <div class="cardsss">
                     <div class="card-shop">
@@ -116,15 +116,17 @@
                
 </div>
     <!-- Contacto -->
-    <div class="contact">
+    <div id="cont" class="contact">
         <div class="trasp">
             <h2 class="contactoss">Contacto</h2>
             <div class="contact-general">
-                    <div class="contact-input">
+                    <div class="contact-input" id="formulario">
                         <p>Nombre</p>
                         <input type="text" name="" id="nombre">
+                        <p class="error1" id="text-de-error1"> -Falta agregar nombre.</p>
                         <p>Mail</p>
                         <input type="email" name="" id="mail">
+                        <p class="error1" id="text-error2">-Falta Mail</p>
                         <p>Dejamos tu comentario</p>
                         <textarea class="tex" name="" id="texto"></textarea>
                         <button id="enviar" type="button" class="boton">Enviar</button>
@@ -139,6 +141,7 @@
                 </div>
             </div>
     </div>
+    <button class="button-sub" id="button">↑</button>
 </main>
 <script src="./main.js"></script>
 </body>
